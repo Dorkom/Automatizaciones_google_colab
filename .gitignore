@@ -216,3 +216,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Google Drive & Colab metadata
+.ipynb_checkpoints/
+.directory
+.DS_Store
+
+# Data files (Datasets)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.pkl
+*.pickle
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Credentials and API Keys
+*.json
+*.pem
+*.pkcs12
+*.p12
+*.pfx
+*.key
+secret*.txt
+token*.txt
+kaggle.json
